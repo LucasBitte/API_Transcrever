@@ -1,0 +1,24 @@
+# Ignora configurações sensíveis e variáveis de ambiente
+.env
+*.env
+openai_api_key.txt  # Se você estiver salvando a chave em um arquivo de texto
+
+# Ignora ambientes virtuais
+.venv/
+venv/
+env/
+
+# Ignora configurações específicas de IDEs
+.vscode/
+.idea/
+
+# Ignora arquivos compilados
+__pycache__/
+*.py[cod]
+
+# Ignora arquivos de log
+*.log
+
+# Ignora diretórios e arquivos gerados automaticamente
+.DS_Store
+*.swp
